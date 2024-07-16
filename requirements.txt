@@ -1,0 +1,5 @@
+langchain
+langchain-google-vertexai
+IPython
+google-generativeai
+langchain-google-genai
