@@ -7,7 +7,7 @@ def to_markdown(text):
     return textwrap.indent(text, '> ', predicate=lambda _: True)
 
 # Set your Google API key
-GOOGLE_API_KEY = "AIzaSyBZknRAIpjSxW0VvGqQSuBLWOWWONJp1Dg"
+GOOGLE_API_KEY = "##YOUR_API_KEY##"
 
 # InitiAPI_KEY = "AIzaSyBZknRAIpjSxW0VvGqQSuBLWOWWONJp1Dg"alize the language model
 llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=GOOGLE_API_KEY)
